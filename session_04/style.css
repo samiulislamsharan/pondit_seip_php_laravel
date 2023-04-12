@@ -1,0 +1,96 @@
+body {
+  padding: 5px 50px 5px 50px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #dddddd;
+  color: #000000;
+}
+
+.navbar a.active {
+  background-color: #008cff;
+  color: #ffffff;
+}
+
+.campaign {
+  background-color: #e7e7e7;
+  color: #000000;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.campaign-left-col {
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+}
+
+.campaign-title {
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+}
+
+.campaign-title-description {
+}
+
+.campaign-button button {
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.campaign-right-col {
+}
+
+.campaign-image {
+  width: 50%;
+  height: 50%;
+}
+
+.newsletter {
+  background-color: #8585858a;
+  color: #ffffff;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter-title {
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+}
+
+.newsletter-description {
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: row;
+}
