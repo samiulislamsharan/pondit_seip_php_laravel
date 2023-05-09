@@ -61,4 +61,8 @@ $obj -> n1 = 5; // '->' is object access operator
 obj -> sum(); // Calling the method form the obj of calculator.
 ```
 
+## Homeowrk
+
+**Use HTML forms to get inputs from the user, calculate the values and show output.**
+
 ## Intervew Questions
