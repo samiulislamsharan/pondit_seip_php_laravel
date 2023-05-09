@@ -1,7 +1,7 @@
 # Session 14: OOP
 
-* Class  -> Template or blueprint of object
-* Object -> Instanace of a class
+- Class -> Template or blueprint of object
+- Object -> Instanace of a class
 
 ```php
 function sum(int $a, $b)
@@ -14,14 +14,14 @@ sum(10, 5.5);
 
 ```
 
-* Function -> Method, Member Functions
-* Variable -> Property, Member Variables
+- Function -> Method, Member Functions
+- Variable -> Property, Member Variables
 
 ## Access Modifier
 
-* `public` - the property or method can be accessed from everywhere. This is default
-* `protected` - the property or method can be accessed within the class and by classes derived from that class
-* `private` - the property or method can ONLY be accessed within the class
+- `public` - the property or method can be accessed from everywhere. This is default
+- `protected` - the property or method can be accessed within the class and by classes derived from that class
+- `private` - the property or method can ONLY be accessed within the class
 
 ## Naming Conventions
 
@@ -30,7 +30,7 @@ sum(10, 5.5);
 3. Snake_case: Property, Function
 4. UPPERCASE: Constant Name
 
-# A Calculator
+## A Calculator
 
 Operations of a caltulator:
 
@@ -61,8 +61,8 @@ $obj -> n1 = 5; // '->' is object access operator
 obj -> sum(); // Calling the method form the obj of calculator.
 ```
 
-## Homeowrk
+## Homework
 
-**Use HTML forms to get inputs from the user, calculate the values and show output.**
+- [ ] **Use HTML forms to get inputs from the user, calculate the values and show output.**
 
 ## Intervew Questions
