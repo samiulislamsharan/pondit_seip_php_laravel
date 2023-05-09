@@ -1,22 +1,21 @@
-A General Web Portal/Web Application
+# A General Web Portal/Web Application
 
 1. Frontend : Guest
-		Visitor -> Register
+
+   * Visitor -> Register
 2. Backend : Admin/Back Office (password protected)
-	Login/Registration
-			-> Registered User/Customer
-			-> Super Admin/Representative of Merchant
-			-> 
-			
-3. Module
-	Access Control -> Role Management
-	
-	
+3. Login/Registration
+
+   * Registered User/Customer
+   * Super Admin/Representative of Merchant
+4. Module
+
+   * Access Control -> Role Management
+
 Home Page
 
+# String Functions
 
-String Functions:
-_________________
 1. explode, List
 2. html_entity_decode*
 3. htmlentities*
@@ -37,9 +36,10 @@ _________________
 18. usfirst
 19. wordwrap
 
-Super Globals Variables
-_______________________
+## Super Globals Variables
+
 Available across all php documents.
+
 1. $GLOBALS
 2. $_SERVER
 3. $_GET
@@ -50,32 +50,34 @@ Available across all php documents.
 8. $_REQUEST
 9. $_ENV
 
-&nbsp; -> non-breaking space.
+`&nbsp;` -> non-breaking space.
 
-<pre>: preformatted text. Forces HTML rendered to render the preformatted text.
+`<pre>`: preformatted text. Forces HTML rendered to render the preformatted text.
 
-PATHS
-_____
+## PATHS
+
 1. Absolute: An absolute path is a path that describes the location of a file or folder regardless of the current working directory.
 2. Relative: A relative path is a path that describes the location of a file or folder in relative to the current working directory.
 
-Differene between:
+## Differene between
+
 1. Include and Require
 2. Inlude Once and Require Once
 
-Strings:
-________
-1. Heredoc == double quote
-2. Nowdoc == single quote	
+## Strings
 
-Homework:
+1. Heredoc == double quote
+2. Nowdoc == single quote
+
+## Homework
+
 $home = Dhanmomdi Government Boy's Hight School (Use escape characters)
 
-Variable Interpolation
+## Variable Interpolation
 
 if-else:
-________
+
 1. NULL, 0, empty: evaluates as FALSE.
 2. Everything except those are accepted as true.
 
-what is the differece between "==" and "==="?
+* what is the differece between "==" and "==="?
