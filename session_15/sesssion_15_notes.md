@@ -106,3 +106,8 @@ It is not possible to instantiate a Trait on its own. It is an addition to tradi
 * Visibility
 * Inheritance
 * Traits
+
+## Practice
+From PHP Documentation:
+* Visibility
+* Inheritance
