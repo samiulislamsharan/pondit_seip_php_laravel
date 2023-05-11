@@ -13,8 +13,8 @@ In the PHP world, namespaces are designed to solve two problems that authors of 
 
 Magic methods are special methods which override PHP's default's action when certain actions are performed on an object.
 
-* [__construct()](https://www.php.net/manual/en/language.oop5.decon.php#object.construct)
-* [__destruct()](https://www.php.net/manual/en/language.oop5.decon.php#object.destruct)
+* [__construct()](https://www.php.net/manual/en/language.oop5.decon.php#object.construct) [*must* be declared as `public`, otherwise an **`E_WARNING`** is emitted.]
+* [__destruct()](https://www.php.net/manual/en/language.oop5.decon.php#object.destruct) [*must* be declared as `public`, otherwise an **`E_WARNING`** is emitted.]
 * [__call()](https://www.php.net/manual/en/language.oop5.overloading.php#object.call)
 * [__callStatic()](https://www.php.net/manual/en/language.oop5.overloading.php#object.callstatic)
 * [__get()](https://www.php.net/manual/en/language.oop5.overloading.php#object.get)
@@ -28,7 +28,7 @@ Magic methods are special methods which override PHP's default's action when cer
 * [__toString()](https://www.php.net/manual/en/language.oop5.magic.php#object.tostring)
 * [__invoke()](https://www.php.net/manual/en/language.oop5.magic.php#object.invoke)
 * [__set_state()](https://www.php.net/manual/en/language.oop5.magic.php#object.set-state)
-* [__clone()](https://www.php.net/manual/en/language.oop5.cloning.php#object.clone) and
+* [__clone()](https://www.php.net/manual/en/language.oop5.cloning.php#object.clone) [*must* be declared as `public`, otherwise an **`E_WARNING`** is emitted.] and
 * [__debugInfo()](https://www.php.net/manual/en/language.oop5.magic.php#object.debuginfo).
 
 ## Audoload(Mandatory)
