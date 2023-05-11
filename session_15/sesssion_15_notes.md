@@ -99,6 +99,22 @@ PHP implements a way to reuse code called Traits.
 
 It is not possible to instantiate a Trait on its own. It is an addition to traditional inheritance and enables horizontal composition of behavior; that is, the application of class members without requiring inheritance.
 
+```php
+<?php
+trait TraitName {
+  // some code...
+}
+```
+
+To use a trait in a class, use the `use` keyword:
+
+```php
+<?php
+class MyClass {
+  use TraitName;
+}
+```
+
 ## Exam
 
 * Class
@@ -108,6 +124,8 @@ It is not possible to instantiate a Trait on its own. It is an addition to tradi
 * Traits
 
 ## Practice
+
 From PHP Documentation:
+
 * Visibility
 * Inheritance
