@@ -73,13 +73,13 @@ Available across all php documents.
 
 ## Homework
 
-$home = Dhanmomdi Government Boy's Hight School (Use escape characters)
+`$home` = Dhanmomdi Government Boy's Hight School (Use escape characters)
 
 ## Variable Interpolation
 
 if-else:
 
-1. NULL, 0, empty: evaluates as FALSE.
-2. Everything except those are accepted as true.
+1. `NULL`, `0`, `empty`: evaluates as `FALSE`.
+2. Everything except those are accepted as `TRUE`.
 
-- what is the differece between "==" and "==="?
+- what is the differece between "`==`" and "`===`"?
