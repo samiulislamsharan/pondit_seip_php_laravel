@@ -1,14 +1,15 @@
 # Pondit SEIP PHP Laravel Training
 
-# Name of the Training Center: PONDIT
+## Name of the Training Center: PONDIT
 
 Rajuk Rajib Cosmo Shopping Complex, Level-5, Plot-71, Sector-7, Ajampur, Uttara, Dhaka-1230
 Mobile No:01841801180 | email: info@pondit.com | Website: [www.pondit.com](https://www.pondit.com)
 
-# Course Outline
+## Course Outline
+
 
 | Session Plan | Outline                                                                                                          |
-| ------------ | ---------------------------------------------------------------------------------------------------------------- |
+| -------------- | ------------------------------------------------------------------------------------------------------------------ |
 | Session 01   | OrientationCourse Plan DiscussionDevelopment ToolsGroup Preparation                                              |
 | Session 02   | Agile And Clean Code, Git And Try Git                                                                            |
 | Session 03   | HTML5                                                                                                            |
@@ -16,7 +17,7 @@ Mobile No:01841801180 | email: info@pondit.com | Website: [www.pondit.com](https
 | Session 05   | CSS3                                                                                                             |
 | Session 06   | Bootstrap 1                                                                                                      |
 | Session 07   | Bootstrap 2                                                                                                      |
-| Session 08   | **Project 1 : Prepare an Ecommerce Website using Bootstrap**                                               |
+| Session 08   | **Project 1 : Prepare an Ecommerce Website using Bootstrap**                                                     |
 | Session 09   | PHP HistoryPHP Syntax And CommentsPHP VariablePHP ConstantsData TypeFile Include                                 |
 | Session 10   | Variable Handling FunctionsString Functions                                                                      |
 | Session 11   | OperatorsSuper GLobal VariablesControl Structure(if/else)                                                        |
@@ -32,19 +33,19 @@ Mobile No:01841801180 | email: info@pondit.com | Website: [www.pondit.com](https
 | Session 21   | CRUD Work 1                                                                                                      |
 | Session 22   | CRUD Work 2                                                                                                      |
 | Session 23   | CRUD Work 3                                                                                                      |
-| Session 24   | **Project 3: Develop and Implement Database Driven Product and Category Module Using OOP**                 |
+| Session 24   | **Project 3: Develop and Implement Database Driven Product and Category Module Using OOP**                       |
 | Session 25   | Discussion on Polymorphism in OOPAbstractInterfaceThird Party Code Integration ( PDF, EMAIL)                     |
 | Session 26   | JavaScript And jQuery                                                                                            |
 | Session 27   | jQuery/Ajax                                                                                                      |
 | Session 28   | Introduction to Framework                                                                                        |
 | Session 29   | Routing and Controller                                                                                           |
 | Session 30   | Views & Blade Templating                                                                                         |
-| Session 31   | **Laravel Project-1**                                                                                      |
+| Session 31   | **Laravel Project-1**                                                                                            |
 | Session 32   | Migration                                                                                                        |
 | Session 33   | Seeding                                                                                                          |
 | Session 34   | CRUD                                                                                                             |
 | Session 35   | CRUD Finishing                                                                                                   |
-| Session 36   | **Laravel Project-2**                                                                                      |
+| Session 36   | **Laravel Project-2**                                                                                            |
 | Session 37   | Soft Delete, Third Party Libraries and Notifications                                                             |
 | Session 38   | Security/Protection                                                                                              |
 | Session 39   | Eloquent one to one relationship CRUD                                                                            |
@@ -62,5 +63,5 @@ Mobile No:01841801180 | email: info@pondit.com | Website: [www.pondit.com](https
 | Session 51   | Project day-8                                                                                                    |
 | Session 52   | Project day-9                                                                                                    |
 | Session 53   | Project day-10                                                                                                   |
-| Session 54   | **Laravel Final Project Presentation**                                                                     |
+| Session 54   | **Laravel Final Project Presentation**                                                                           |
 | Session 55   | Summative Assessment                                                                                             |
