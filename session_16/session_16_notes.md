@@ -11,7 +11,7 @@ In the PHP world, namespaces are designed to solve two problems that authors of 
 
 ## Magic Methods
 
-Magic methods are special methods which override PHP's default's action when certain actions are performed on an object.
+Magic methods are special methods which override PHP's default's action when certain actions are performed on an object.zo
 
 - [\_\_construct()](https://www.php.net/manual/en/language.oop5.decon.php#object.construct) [*must* be declared as `public`, otherwise an **`E_WARNING`** is emitted.]
 - [\_\_destruct()](https://www.php.net/manual/en/language.oop5.decon.php#object.destruct) [*must* be declared as `public`, otherwise an **`E_WARNING`** is emitted.]
