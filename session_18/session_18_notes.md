@@ -4,7 +4,7 @@
 
 1. **Type Casting**: Refers to the explicit conversion of a variable from tone data type to another.
 2. **Type Juggling**: Refers to the atomatic conversion of variables between different types by PHP in runtime.
-3. **Type Hinting**: This PHP 5 feature introduced a feature that allows to specify te expected data type safety and provides better clarity when working with functions.
+3. **Type Hinting**: This PHP 5 feature introduced a feature that allows to specify the expected data type safety and provides better clarity when working with functions.
 
 ## Method
 
