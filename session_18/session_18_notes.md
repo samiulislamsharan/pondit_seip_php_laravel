@@ -1,10 +1,10 @@
-# Session 18:
+# Session 18
 
 ## Previous
 
-1. Type Casting:
-2. Type Juggling:
-3. Type Hinting:
+1. **Type Casting**: Refers to the explicit conversion of a variable from tone data type to another.
+2. **Type Juggling**: Refers to the atomatic conversion of variables between different types by PHP in runtime.
+3. **Type Hinting**: This PHP 5 feature introduced a feature that allows to specify te expected data type safety and provides better clarity when working with functions.
 
 ## Method
 
@@ -26,18 +26,17 @@ Stands for Javascript Object Notation. Below is the JSON format:
     "age":30,
     "car":null
 }'
-
 ```
 
 PHP has 2 JSON functions:
 
-1. `json_encode()`
-2. `json_decode()`
+1. `json_encode()`: Returns the JSON representation of a value.
+2. `json_decode()`: Decodes a JSON string.
 
 Dealing with JSON files:
 
-1. `file_get_contents()`
-2. `file_get_contents()`
+1. `file_get_contents()`: Reads entire file into a string.
+2. `file_put_contents()`: Write data to a file.
 
 ## Interview Questions
 
