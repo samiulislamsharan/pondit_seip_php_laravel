@@ -5,7 +5,7 @@
 A query string refers to the portion of a  URL that comes after question ('?') and includes parameter-value pairs. Query string can be accessed and extract its parameters using the `$_GET` superglobal variable.
 
 ```php
-;// URL: http://exmaple.com/page.php?param1=value1&param2=value2
+// URL: http://exmaple.com/page.php?param1=value1&param2=value2
 
 // Accessing the query string parameters
 $param1 = $_GET['param1']; // "value1"
