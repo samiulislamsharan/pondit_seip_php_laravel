@@ -10,14 +10,15 @@ After getting input from user:
 4. Store as JSON data to JSON file
 
    ```php
-    // Putting data to an associative array
+   // Putting data to an associative array
    $slide = [
-        'id' => $id,
-        'uuid' => $uuid,
-        'src' => $src,
-        'alt' => $alt,
-        'title' => $title,
-        'caption' => $caption
+        // key    =>     value
+        'id'      =>     $id,
+        'uuid'    =>     $uuid,
+        'src'     =>     $src,
+        'alt'     =>     $alt,
+        'title'   =>     $title,
+        'caption' =>     $caption
    ];
 
    $oldDataSlides = file_get_contents($datasource.DIRECTORY_SEPARATOR.'slideritems.json');
@@ -34,5 +35,6 @@ After getting input from user:
    }
    ```
 
-   Note: key in the associative array must match the the object properties of the JSON format.
+   Note: `key` in the associative array must match the the `object` properties of the JSON format.
+
 5. Show appropriate message to user
