@@ -42,15 +42,15 @@ Home Page
 
 Available across all php documents.
 
-1. $GLOBALS
-2. $\_SERVER
-3. $\_GET
-4. $\_POST
-5. $\_FILES
-6. $\_COOKIE
-7. $\_SESSION
-8. $\_REQUEST
-9. $\_ENV
+1. `$_GLOBALS`
+2. `$_SERVER`
+3. `$_GET`
+4. `$_POST`
+5. `$_FILES`
+6. `$_COOKIE`
+7. `$_SESSION`
+8. `$_REQUEST`
+9. `$_ENV`
 
 `&nbsp;` -> non-breaking space.
 
@@ -63,8 +63,8 @@ Available across all php documents.
 
 ## Differene between
 
-1. Include and Require
-2. Inlude Once and Require Once
+1. `include` and `require`
+2. `inlude_once` and `require_once`
 
 ## Strings
 
