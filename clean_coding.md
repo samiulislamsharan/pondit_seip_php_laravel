@@ -20,7 +20,6 @@ function res($x, $y) {
 	$z = $x + $y;
 	echo "$z";
 }
-?>
 ```
 
 শুধুমাত্র প্রথম লাইনটি পড়ে ফাংশনটির কাজ সম্পর্কে কোন ধারণা করতে পেরেছেন কি?
@@ -34,7 +33,6 @@ function addition($x, $y) {
 }
 
 addition(5, 20);
-?>
 ```
 
 এবারে ভাবুন কোন ভার্সনটি আপনার কাছে সহজে বোধগম্য হয়েছে? অর্থবহ নাম ব্যবহারের গুরুত্ব বোঝা যাচ্ছে কি?
@@ -57,12 +55,13 @@ $elapsedTimeInDays;
 This is bad:
 
 ```php-template
-protected $d; // elapsed time in days
+<? protected $d; // elapsed time in days
 ```
 
 This is good:
 
 ```php-template
+<? php
 protected $elapsedTimeInDays;
 protected $daysSinceCreation;
 protected $daysSinceModification;
