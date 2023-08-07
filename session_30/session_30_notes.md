@@ -8,7 +8,7 @@
 2. [Intervention](https://github.com/Intervention/image)
 3. [Imagick](https://www.php.net/manual/en/book.imagick.php)
 
-## AJAJX
+## AJAX
 
 1. fetch()
 2. [AXIOS](https://github.com/axios/axios)
