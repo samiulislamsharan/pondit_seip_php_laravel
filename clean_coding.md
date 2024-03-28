@@ -63,7 +63,7 @@ This is bad:
 This is good:
 
 ```php-template
-<? php
+<?php
 protected $elapsedTimeInDays;
 protected $daysSinceCreation;
 protected $daysSinceModification;
@@ -78,7 +78,7 @@ Avoid Disinformation
 একই অর্থ প্রকাশের জন্য একাধিক pattern/style follow করা উচিত নয়। ধরা যাক database-এ রাখা student-দের নাম এবং কে কোন কোর্সে enrolled সেই তথ্যগুলো জানতে হবে। তার জন্য দুটো variable declare করা হলো।
 
 ```php
-<? php
+<?php
 private getstudent;
 private getcourseinfo;
 ?>
@@ -87,7 +87,7 @@ private getcourseinfo;
 এবারে এই code-টির সাথে নিচের দুইটি code-এর কি কোন পার্থক্য পাওয়া যায় কিনা লক্ষ্য করি-
 
 ```php-template
-<? php
+<?php
 private getstudentinfo;
 private getcourseinfo;
 ?>
@@ -96,7 +96,7 @@ private getcourseinfo;
 অথবা,
 
 ```php
-<? php
+<?php
 private getstudent;
 private getcourse;
 ?>
@@ -106,7 +106,27 @@ private getcourse;
 
 ### Use Pronounceable Name
 
+```php
+<?php
+private Date genymdhms;
+private Date modymdhms;
+?>
+```
+
+```php
+<?php
+private generationTimeStamp;
+private modificationTimeStamp;
+?>
+```
+
+পড়ার সময় কোন code টি ভালো বা সহজ লেগেছে? নিশ্চয়ই দ্বিতীয়টি। নাম হওয়া উচিৎ এমন যেন সহজে উচ্চারণ করা যায়। যদি উচ্চারণ না করা যায়, তাহলে এই ব্যাপারে আলোচনা করার সময় uncomfortable লাগবে।
+
 ### Use Searchable Names
+
+কোন variable-এর scope বা lifetime অর্থাৎ এর পরিব্যাপ্তি যত বড় হবে, তার নামটিও তত বেশি অর্থবহ হওয়া আবশ্যক। যেমনঃ for loop-এর একটি counter varibale-এর পরিসীমা loop পর্যন্তই। তাই এর নাম i/j/k হলেও সমস্যা নেই কারণ এতি আর পরবর্তীতে ব্যাবহার করার প্রয়োজন পড়ছে না।
+
+কিন্তু "d" বলে একটি variable declare করা হলো যেটি একটি লম্বা function-এর পুরোটা জুড়েই তৈরির পর থেকে অতিবাহিত সময় হিসাব করবে, তার জন্য daysSinceCreation নাম দেয়াই ভাল। এই নামতি বড় হলেও সহজেই variable-টি খুঁজে বের করা যাবে।
 
 ### Avoid Mental Mapping
 
@@ -123,3 +143,31 @@ private getcourse;
 ### Don't be Cute
 
 ## Functions
+
+### Error Handling Function
+
+## Comments
+
+### 1. Legal Comments
+
+### 2. Informative Comments
+
+### 3. Explanation of Intent
+
+### 4. Clarification
+
+### 5. Todo Comments
+
+### Bad Comments
+
+#### 1. Mumbling
+
+#### 2. Redundant Comments
+
+#### 3. Noise Comments
+
+#### 4. Too Much Information
+
+## Unit Tests
+
+### F.I.R.S.T
