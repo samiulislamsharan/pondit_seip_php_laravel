@@ -63,6 +63,6 @@ obj -> sum(); // Calling the method form the obj of calculator.
 
 ## Homework
 
-- [X]**Use HTML forms to get inputs from the user, calculate the values and show output.**
+* [x] **Use HTML forms to get inputs from the user, calculate the values and show output.**
 
 ## Intervew Questions
