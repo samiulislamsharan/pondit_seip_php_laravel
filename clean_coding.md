@@ -162,6 +162,10 @@ private modificationTimeStamp;
 
 ### Avoid Mental Mapping
 
+একজন প্রোগ্রামার একটি নাম ছোট করে নিজের মত করে ভেবে নিলে পরে অন্য একজন এই নামটিকে অন্য আরেকটি নাম হিসাবে ভেবে নিতে পারে।
+
+Clarity is king - এই বিষয়টি স্মার্ট প্রোগ্রামার আর প্রফেশনাল প্রোগ্রামারের মধ্যে পার্থক্য করে দেয়। একজন professional programmer তার নিজের বোঝার/চিন্তা করার pattern পরিহার করে পরিষ্কার ভাবে পরিচ্ছন্ন code লেখার practice করে থাকেন যাতে অন্যরা সহজেই বুঝতে পারে।
+
 ### Don't Pun
 
 ### Use Solution Domain Name
